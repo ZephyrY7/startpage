@@ -1,44 +1,37 @@
 export default [
   {
-    category: "Dev",
+    category: "main",
     color: "cyan",
     items: {
-      Github: "https://github.com",
-      AWS: "https://aws.amazon.com",
-      "Dev.to": "https://dev.to",
-      Firebase: "https://console.firebase.google.com/u/0",
+      gmail: "https://mail.google.com/mail/u/0/#inbox/",
+      discord: "https://discord.com/app/",
+      scoop: "https://scoop.sh/#/apps?q=",
     },
   },
   {
-    category: "School",
-    color: "red",
-    items: {
-      Outlook: "https://outlook.office365.com/mail/inbox",
-      Canvas: "https://sit.instructure.com",
-      MyStevens: "https://login.stevens.edu/app/UserHome",
-    },
-  },
-  {
-    category: "Work",
+    category: "school",
     color: "green",
     items: {
-      Linkedin: "https://linkedin.com",
-      Twitter: "https://twitter.com",
-      Leetcode: "https://leetcode.com",
-      Handshake: "https://app.joinhandshake.com/stu/postings",
-      Indeed: "https://www.indeed.com/",
+      apspace: "https://apspace.apu.edu.my/",
+      msteams: "https://teams.microsoft.com/",
+      outlook: "https://outlook.office365.com/mail/inbox/",
     },
   },
   {
-    category: "Misc",
+    category: "work",
+    color: "blue",
+    items: {
+      linkedin: "https://linkedin.com/feed/",
+      github: "https://github.com/dashboard/",
+    },
+  },
+  {
+    category: "misc",
     color: "purple",
     items: {
-      Trakt: "https://trakt.tv/users/peterrauscher/lists",
-      YouTube: "https://www.youtube.com/",
-      Fmovies: "https://fmovies.to/home",
-      Zoro: "https://zoro.to",
-      TempMail: "https://tempmail.email/",
-      // IPTorrents: "https://iptorrents.com/t",
+      youtube: "https://www.youtube.com/",
+      music: "https://music.youtube.com/",
+      reddit: "https://www.reddit.com/",
     },
   },
 ];

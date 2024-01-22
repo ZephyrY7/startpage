@@ -1,27 +1,27 @@
 @font-face {
-  font-family: "Hack";
-  src: local("Hack Regular"), url("ttf/Hack-Regular.ttf");
+  font-family: "CaskaydiaCove Nerd Font";
+  src: local("Caskaydia Cove"), url("ttf/CaskaydiaCove-SemiBold.ttf");
 }
 
 :root {
-  --bg: #1a1b26;
-  --fg: #c0caf5;
-  --black: #15161e;
-  --red: #f7768e;
-  --green: #9ece6a;
-  --yellow: #e0af68;
-  --blue: #7aa2f7;
-  --purple: #bb9af7;
-  --cyan: #7dcfff;
-  --light-gray: #a9b1d6;
-  --gray: #414868;
+  --bg: #1e1e2e;
+  --fg: #cdd6f4;
+  --black: #181825;
+  --red: #f5e0dc;
+  --green: #a6e3a1;
+  --yellow: #f9e2af;
+  --blue: #89b4fa;
+  --purple: #b4befe;
+  --cyan: #89dceb;
+  --light-gray: #9399b2;
+  --gray: #585b70;
 }
 
 html {
-  font-family: "Hack", monospace;
+  font-family: "CaskaydiaCove Nerd Font";
   text-align: center;
   color: var(--fg);
-  background-color: var(--gray);
+  background-color: var(--bg);
   /* background-size: cover; */
   /* background-position: center; */
 }
@@ -69,14 +69,15 @@ body {
 }
 
 .pad-terminal {
-  padding-top: 2vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
-  height: 96vh;
+  padding-top: 20vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-bottom: 20vh;
+  height: 50vh;
 }
 
 .scrollable {
-  height: 96vh;
+  height: 60vh;
   overflow: auto;
   box-sizing: border-box;
 }
@@ -143,4 +144,12 @@ body {
   font: inherit;
   border: none;
   color: inherit;
+}
+
+.shortcuts p {
+  font-weight: normal;
+}
+
+.shortcuts-container .shortcuts p.bold {
+  font-weight: bolder;
 }

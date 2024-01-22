@@ -12,7 +12,7 @@ export default [
     execute: executor.ls,
   },
   {
-    name: ["help"],
+    name: ["help", "h"],
     description: "Lists available commands",
     execute: executor.help,
   },
@@ -20,15 +20,5 @@ export default [
     name: ["clear"],
     description: "Clears the output history",
     execute: executor.clear,
-  },
-  {
-    name: ["weather"],
-    description: "Displays the weather forecast",
-    execute: executor.weather,
-  },
-  {
-    name: ["motd"],
-    description: "Displays a random famous quote",
-    execute: executor.motd,
   },
 ];
