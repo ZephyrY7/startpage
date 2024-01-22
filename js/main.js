@@ -16,7 +16,7 @@ input.addEventListener("keydown", function (e) {
     try {
       // Find the command details based on the entered command
       const commandDetails = commands.find((c) =>
-        c.name.map((n) => n.toLowerCase()).includes(command)
+        c.name.map((n) => n.toLowerCase()).includes(command),
       );
       if (commandDetails) {
         // If the command is found, execute the corresponding function
