@@ -40,8 +40,8 @@ You have two main options:
 - To visit a shortcut, just enter the name of the shortcut in, and you'll be redirected.
   - Example: just typing `git` will bring me to Github!
   - **NOTE**: If the first few letters are shared with another shortcut, the first one it finds will be used. You'll have to be more specific in this case. Also, if the first few letters belong to command, the command will be executed instead.
-- Run `weather set` to see how to setup the `weather` command.
-- List all available commands with `help`.
+- ~~Run `weather set` to see how to setup the `weather` command.~~
+- List all available commands with `help` or `h`.
 
 ## Configuration
 
