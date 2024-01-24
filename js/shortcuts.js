@@ -22,7 +22,7 @@ export default [
     color: "blue",
     items: {
       linkedin: "https://linkedin.com/feed/",
-      github: "https://github.com/dashboard/",
+      github: "https://github.com/ZephyrY7/",
     },
   },
   {
