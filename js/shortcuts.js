@@ -13,7 +13,7 @@ export default [
     color: "green",
     items: {
       apspace: "https://apspace.apu.edu.my/",
-      msteams: "https://teams.microsoft.com/",
+      msteams: "https://teams.microsoft.com/v2/",
       outlook: "https://outlook.office365.com/mail/inbox/",
     },
   },
