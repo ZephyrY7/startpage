@@ -1,20 +1,17 @@
 export default [
   {
-    category: "main",
+    category: "comm",
     color: "cyan",
     items: {
       gmail: "https://mail.google.com/mail/u/0/#inbox/",
       discord: "https://discord.com/app/",
-      scoop: "https://scoop.sh/#/apps?q=",
     },
   },
   {
     category: "school",
     color: "green",
     items: {
-      apspace: "https://apspace.apu.edu.my/",
-      msteams: "https://teams.microsoft.com/v2/",
-      outlook: "https://outlook.office365.com/mail/inbox/",
+      maya: "https://maya.um.edu.my/sitsvision/wrd/siw_lgn/",
     },
   },
   {
@@ -23,15 +20,23 @@ export default [
     items: {
       linkedin: "https://linkedin.com/feed/",
       github: "https://github.com/ZephyrY7/",
+      ieee: "https://ieeexplore.ieee.org/Xplore/home.jsp/",
+    },
+  },  
+  {
+    category: "media",
+    color: "red",
+    items: {
+      youtube: "https://www.youtube.com/",
+      music: "https://music.youtube.com/",
+      reddit: "https://www.reddit.com/",
     },
   },
   {
     category: "misc",
     color: "purple",
     items: {
-      youtube: "https://www.youtube.com/",
-      music: "https://music.youtube.com/",
-      reddit: "https://www.reddit.com/",
+      scoop: "https://scoop.sh/#/apps?q=",
     },
   },
 ];
