@@ -22,7 +22,7 @@ export default [
       github: "https://github.com/ZephyrY7/",
       ieee: "https://ieeexplore.ieee.org/Xplore/home.jsp/",
     },
-  },  
+  },
   {
     category: "media",
     color: "red",
