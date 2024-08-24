@@ -11,7 +11,7 @@ export default [
     category: "school",
     color: "green",
     items: {
-      maya: "https://maya.um.edu.my/sitsvision/wrd/siw_lgn/",
+      maya: "https://maya.um.edu.my/sitsvision/wrd/siw_lgn",
     },
   },
   {
