@@ -49,7 +49,7 @@ input.addEventListener("keydown", function (e) {
 
 window.addEventListener("load", () => {
   executors.ls();
-  let filenames = ["evening-sky.png"];
+  let filenames = ["Aston-Martin-Vulcan.jpg"];
   let root = document.getElementsByTagName("html")[0];
   root.style.backgroundImage = `url("./backgrounds/${
     filenames[Math.floor(Math.random() * filenames.length)]
