@@ -12,6 +12,7 @@ export default [
     color: "green",
     items: {
       maya: "https://maya.um.edu.my/sitsvision/wrd/siw_lgn",
+      teams: "https://teams.microsoft.com/v2/",
     },
   },
   {
