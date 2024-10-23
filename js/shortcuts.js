@@ -5,6 +5,7 @@ export default [
     items: {
       gmail: "https://mail.google.com/mail/u/0/#inbox/",
       discord: "https://discord.com/app/",
+      whatsapp: "https://web.whatsapp.com/",
     },
   },
   {
